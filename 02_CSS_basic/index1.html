@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Rules</title>
+    <style>
+
+        /*css selectors*/
+
+        /*Basic selectors*/
+        /*1.universal selector*/
+        /*    *{*/
+        /*        color: red;*/
+        /*    }*/
+
+        /*2.type selector*/
+        /*    h1 {*/
+        /*        color: green;*/
+        /*    }*/
+
+        /*    p {*/
+        /*        color: orange;*/
+        /*    }*/
+
+        /*3.class selector*/
+        /*    .selected{*/
+        /*        color: orange;*/
+        /*        font-size: 20px;*/
+
+        /*    }*/
+
+        /*4.id selector*/
+        /*    #second{*/
+        /*        color: red;*/
+        /*    }*/
+
+        /*5.attribute selector*/
+        /*    [id]{*/
+        /*        background: green;*/
+        /*    }*/
+        /*    [id='first']{*/
+        /*        background: green;*/
+        /*    }*/
+
+        /*Psudo Selector*/
+        /*1.Psudo Class*/
+        /*    h1:hover{*/
+        /*        color: red;*/
+        /*        background: green;*/
+        /*    }*/
+        /*    li:first-child{*/
+        /*        color: darkblue;*/
+        /*    }*/
+        /*    li:last-child{*/
+        /*        color: darkblue;*/
+        /*    }*/
+        /*    li:nth-child(3){*/
+        /*        color: yellow;*/
+        /*        background: aqua;*/
+        /*    }*/
+        /*2.Psudo Element*/
+        /*    h1::first-letter{*/
+        /*        font-size: 100px;*/
+        /*        color:red;*/
+        /*    }*/
+        /*    p::first-line{*/
+        /*        color: aquamarine;*/
+        /*    }*/
+        /*    p::selection{*/
+        /*        background: red;*/
+        /*        color: yellow;*/
+        /*    }*/
+        /*    input::placeholder{*/
+        /*        color: green;*/
+        /*    }*/
+
+        /*    h2::before{*/
+        /*        content: "A";*/
+        /*    }*/
+        /*    h2::after{*/
+        /*        content: "Z";*/
+        /*    }*/
+
+        /*selection grouping*/
+        /*#first,h1,p{*/
+        /*    color: red;*/
+        /*}*/
+
+        /*CSS Combinators - for combining different selectors and select*/
+
+        /*1.Descendent combinator*/
+        /*select if p is a child of the section*/
+        /*    section p{*/
+        /*        color: red;*/
+        /*    }*/
+
+        /* 2.Adjacent combinator*/
+        /*select h2 if h2 is just after h2(select only one)*/
+        /*    h1 + h2{*/
+        /*        color: orange;*/
+        /*    }*/
+        /*select ul if ul is just after section(select only one)*/
+        /*    section+ul{*/
+        /*        color: green;*/
+        /*    }*/
+
+        /* 3.Child combinator*/
+        /*check if p is a direct child of the section*/
+        /*    section>p{*/
+        /*        background: green;*/
+        /*    }*/
+        /*check if p is a direct child of the div and section*/
+        /*    section>div>p{*/
+        /*        background: orange;*/
+        /*    }*/
+
+        /*4.General sibling combinator*/
+        /*select h2 if h2 is just after a h1.. (select all h2 after h1 if it is in the same root)*/
+        /*    h1 ~ h2 {*/
+        /*        color: red;*/
+        /*    }*/
+
+    </style>
+</head>
+<body>
+<input type="text" placeholder="Customer-ID">
+<h2>CSS Selector H2</h2>
+<h1>Cascade Style Sheet</h1>
+<h2 id="first">CSS Selector h2</h2>
+<h2 id="second">CSS Selector h2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut, dolorem enim expedita fugit iste laboriosam minima
+    minus modi mollitia nemo nulla officiis quam quidem sapiente sint ut veritatis voluptas?</p>
+<section>
+    <p>Hello there how are you....fine</p>
+    <p>Hello there how are you....fine</p>
+    <p>Hello there how are you....fine</p>
+    <div>
+        <p>hello there whats up?</p>
+    </div>
+
+    <h2>CSS Selector H2</h2>
+</section>
+<ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+</ul>
+<ol>
+    <li>Test one</li>
+    <li>Test two</li>
+    <li>Test three</li>
+</ol>
+<h2>CSS Selector H2</h2>
+<ul>
+    <li>list one</li>
+    <li>list two</li>
+    <li>list three</li>
+    <li>list four</li>
+</ul>
+
+<p class="selected">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id perferendis possimus
+    praesentium si
+    milique temporibus? Aut cupiditate deleniti dolorum, eveniet expedita ius
+    to laudantium neque quam quod rerum sed tempora vero!</p>
+<p id="1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id perferendis possimus praesentium si
+    milique temporibus? Aut cupiditate deleniti dolorum, eveniet expedita ius
+    to laudantium neque quam quod rerum sed tempora vero!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id perferendis possimus praesentium si
+    milique temporibus? Aut cupiditate deleniti dolorum, eveniet expedita ius
+    to laudantium neque quam quod rerum sed tempora vero!</p>
+
+<h2>CSS Selector h2</h2>
+<p class="selected">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id perferendis possimus
+    praesentium si
+    milique temporibus? Aut cupiditate deleniti dolorum, eveniet expedita ius
+    to laudantium neque quam quod rerum sed tempora vero!</p>
+</body>
+</html>
