@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        body>section{
+            height: 300px;
+            /*border: 2px solid red;*/
+            position: relative;
+        }
+        .one {
+            width: calc(100%/3);
+            height: 100%;
+            background: orange;
+            position: absolute;
+            left: 0;
+        }
+
+        .two {
+            width: calc(100%/3);
+            height: 100%;
+            background: blue;
+            position: absolute;
+            left: calc(100%/3);
+        }
+
+        .three {
+            width: calc(100%/3);
+            height: 100%;
+            background: green;
+            position: absolute;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</section>
+
+</body>
+</html>
