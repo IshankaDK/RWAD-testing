@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transition</title>
+    <link rel="stylesheet" href="assests/css/normalize.css">
+    <style>
+        body{
+            background: #6c6c6c;
+            overflow: hidden;
+        }
+        div {
+            position: relative;
+            width: 320px;
+            height: 50px;
+            background: #3e3ee2;
+            transition-property: all;
+            transition-duration: 2s;
+            right: 290px;
+        }
+
+        div:nth-child(1) {
+            top: 20px;
+        }
+
+        div:nth-child(2) {
+            top: 70px;
+        }
+
+        div:nth-child(3) {
+            top: 120px;
+        }
+
+        div:nth-child(4) {
+            top: 170px;
+        }
+
+        div:nth-child(5) {
+            top: 220px;
+        }
+
+        div:hover {
+            /*width: 300px;*/
+            margin-left: 290px;
+            transition-property: all;
+            transition-duration: 2s
+        }
+        div>h1{
+            margin: 0;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+
+<div><h1>Menu One</h1></div>
+<div><h1>Menu two</h1></div>
+<div><h1>Menu three</h1></div>
+<div><h1>Menu four</h1></div>
+<div><h1>Menu five</h1></div>
+</body>
+</html>

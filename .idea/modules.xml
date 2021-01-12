@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/06_CSS_Inheritance/06_CSS_Inheritance.iml" filepath="$PROJECT_DIR$/06_CSS_Inheritance/06_CSS_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_CSS_BOX_Model/07_CSS_BOX_Model.iml" filepath="$PROJECT_DIR$/07_CSS_BOX_Model/07_CSS_BOX_Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/08_CSS_Layout/08_CSS_Layout.iml" filepath="$PROJECT_DIR$/08_CSS_Layout/08_CSS_Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_CSS_Transition/10_CSS_Transition.iml" filepath="$PROJECT_DIR$/10_CSS_Transition/10_CSS_Transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_CSS_Animation/11_CSS_Animation.iml" filepath="$PROJECT_DIR$/11_CSS_Animation/11_CSS_Animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_CSS_Cascade/4_CSS_Cascade.iml" filepath="$PROJECT_DIR$/4_CSS_Cascade/4_CSS_Cascade.iml" />
     </modules>
   </component>
